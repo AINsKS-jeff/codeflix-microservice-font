@@ -1,0 +1,7 @@
+body {
+  background: url('../../public/imagens/fundo2.png') no-repeat center bottom fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

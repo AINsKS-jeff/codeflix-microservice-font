@@ -1,0 +1,40 @@
+body {
+  background: url('../../../public/imagens/fundo3.png') no-repeat center top fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); 
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); 
+  z-index: -1;
+}
+
+.btn-slide{
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn-slide:hover{
+  border-color: white;
+  background-image: linear-gradient(to right, #01ff52, #56f23f, #73e42f, #86d721, #93ca17);
+}
